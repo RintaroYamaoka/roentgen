@@ -32,7 +32,7 @@ roentgen mcp ./out                               # MCP サーバー(stdio)
 
 ## 配布
 
-- Claude Code プラグイン:このリポジトリを `claude plugin add`。`bin/roentgen.sh` がバイナリを探す(`~/.roentgen/bin` → `target/release` → cargo でビルド → GitHub Releases から取得)
+- Claude Code プラグイン:`/plugin marketplace add RintaroYamaoka/claude-plugins` → `/plugin install roentgen@rintaro-yamaoka`。`bin/roentgen.sh` がバイナリを探す(`~/.roentgen/bin` → `target/release` → cargo でビルド → GitHub Releases から取得)
 - バイナリだけ:GitHub Releases(Linux x86_64 / aarch64・macOS)。タグ `v*` で CI がビルドして添付
 - ソースから:`cargo build --release`
 
