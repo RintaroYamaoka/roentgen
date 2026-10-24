@@ -1,0 +1,12 @@
+{
+  "name": "roentgen",
+  "version": "0.2.0",
+  "description": "repo を 1 回で読み解き、コードの知識グラフ(関数・型・表・入口・呼び出し・読み書き)と図主体の HTML 19 ページを出す。北極星:コードを読まずに読んだのと近い状態。",
+  "author": { "name": "RintaroYamaoka" },
+  "mcpServers": {
+    "roentgen": {
+      "command": "bash",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/bin/roentgen.sh", "mcp", "${ROENTGEN_OUT:-.roentgen/out}"]
+    }
+  }
+}
